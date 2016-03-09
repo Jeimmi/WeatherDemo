@@ -9,8 +9,36 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.jeimmi.weatherdemo.WeatherStaion">
 
-    <TextView
-        android:layout_width="wrap_content"
+    <TextView android:id="@+id/temperature"
+        android:gravity = "center"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:textStyle="bold"
+        android:textSize="28sp"
+        android:text="Temperature"
+        android:editable="false"
+        android:singleLine="true"
+        android:layout_margin="10dp"/>
+
+    <TextView android:id="@+id/pressure"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="28sp"
+        android:text="Pressure"
+        android:editable="false"
+        android:singleLine="true"
+        android:layout_margin="10dp"/>
+
+    <TextView android:id="@+id/light"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textStyle="bold"
+    android:textSize="28sp"
+    android:text="Light"
+    android:editable="false"
+    android:singleLine="true"
+    android:layout_margin="10dp"/>
 </RelativeLayout>
